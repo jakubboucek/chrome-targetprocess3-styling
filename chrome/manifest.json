@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "TP Tags Hilite",
+  "name": "Targetprocess³ styling",
   "version": "0.9.1",
   "content_scripts": [
     {
-      "matches": ["http://socialbakers.tpondemand.com/*"],
+      "matches": ["http://*.tpondemand.com/*"],
       "js": ["jquery.js", "background.js"]
     }
   ]
